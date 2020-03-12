@@ -15,7 +15,7 @@ class _DaytwoState extends State<Daytwo> {
           child: Column(
             children: <Widget>[
               Padding(
-                padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+                padding: EdgeInsets.fromLTRB(5, 5, 5, 0),
                 child: Card(
                   elevation: 5,
                   child: Column(
@@ -30,7 +30,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -82,7 +82,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -134,7 +134,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -186,7 +186,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -238,7 +238,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -290,7 +290,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -342,7 +342,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -394,7 +394,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -446,7 +446,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -498,7 +498,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),
@@ -550,7 +550,7 @@ class _DaytwoState extends State<Daytwo> {
                             image: DecorationImage(
                                 fit: BoxFit.fill,
                                 image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
+                                    'https://dscmbcet.github.io/assets/img/kit/sponsor.png')),
                           ),
                         ),
                       ),

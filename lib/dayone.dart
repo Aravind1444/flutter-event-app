@@ -17,7 +17,7 @@ class _DayoneState extends State<Dayone> {
           child: Column(
             children: <Widget>[
               Padding(
-                padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+                padding: EdgeInsets.fromLTRB(5, 5, 5, 0),
                 child: Card(
                   elevation: 5,
                   child: Column(
