@@ -23,19 +23,6 @@ class _DayoneState extends State<Dayone> {
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                        child: Container(
-                          width: double.infinity,
-                          height: 165,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                                fit: BoxFit.fill,
-                                image: NetworkImage(
-                                    'https://1.bp.blogspot.com/-59eLYUieQW4/Xms-mUid1JI/AAAAAAAAM18/UMj_vrBqsaAM-irfp2L1wrx3hHYnjNYzACEwYBhgLKskDAMBZVoC_ayiyclzIxR_9TPzz75k4qfpZdueGooeZOQUXd9fTOeiYm99jZvNiIpkuRWjLWG62NMgkp4diSw8lfL4BIDUdPqkZeAbHmHt6FAkCdO1hfceNV6TvEdFQZUoKwe7zkmRkBvektJD7gTkQsdw_MbgG1jkQXSz8oLbcvKkPuP-M7eB2acC3mGf18J8q4ZN2cChKmLxDJEyY9YFcF8bu9QEdOzjnI0KnYL4nrVjZM2-7dm7waQQFGiCLsIhk6ilA7Q3t1QzzC-B8SSHd3Kz4_BwXPX8G8eg0Yc8sFIEYHUt59gEVOau7iUKL5qbNSf0EYq0-Qu2pXEbX8Avn8itAOgHb4jk2Hk_uZoslKFdn5dmBDDrL6B1Bm-rsjk7w8ZVhw3P3MKiSt8WrDBCIlgS1HteNl-kNGKtzI9c_-IpkrtEMna4cEc7iQ4zsZdF313xfcthmaHzp3dgSLJaVj5PheNR61Zr6oRqX3cnq8A1bTvfeiZ6O_zNup1ruKobrHM4TxnGeINcAY7ccP5p8DeiHj_LCtBMZh3QQbwvW1WeDXokA0ZVfNFmKdXFLg5-mRK26K_7Zqz18wUSozaXo-fBiDm8FYlQeQDDP_6zzBQ/s1600/TRIAL%2BEVENT%2BBANNER.png')),
-                          ),
-                        ),
-                      ),
                       ExpansionTile(
                         trailing: Icon(
                           Icons.keyboard_arrow_right,
@@ -49,6 +36,13 @@ class _DayoneState extends State<Dayone> {
                               fontSize: 20),
                         ),
                         children: <Widget>[
+                          Padding(
+                            padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
+                            child: Image(
+                              image: NetworkImage(
+                                  'https://1.bp.blogspot.com/-59eLYUieQW4/Xms-mUid1JI/AAAAAAAAM18/UMj_vrBqsaAM-irfp2L1wrx3hHYnjNYzACEwYBhgLKskDAMBZVoC_ayiyclzIxR_9TPzz75k4qfpZdueGooeZOQUXd9fTOeiYm99jZvNiIpkuRWjLWG62NMgkp4diSw8lfL4BIDUdPqkZeAbHmHt6FAkCdO1hfceNV6TvEdFQZUoKwe7zkmRkBvektJD7gTkQsdw_MbgG1jkQXSz8oLbcvKkPuP-M7eB2acC3mGf18J8q4ZN2cChKmLxDJEyY9YFcF8bu9QEdOzjnI0KnYL4nrVjZM2-7dm7waQQFGiCLsIhk6ilA7Q3t1QzzC-B8SSHd3Kz4_BwXPX8G8eg0Yc8sFIEYHUt59gEVOau7iUKL5qbNSf0EYq0-Qu2pXEbX8Avn8itAOgHb4jk2Hk_uZoslKFdn5dmBDDrL6B1Bm-rsjk7w8ZVhw3P3MKiSt8WrDBCIlgS1HteNl-kNGKtzI9c_-IpkrtEMna4cEc7iQ4zsZdF313xfcthmaHzp3dgSLJaVj5PheNR61Zr6oRqX3cnq8A1bTvfeiZ6O_zNup1ruKobrHM4TxnGeINcAY7ccP5p8DeiHj_LCtBMZh3QQbwvW1WeDXokA0ZVfNFmKdXFLg5-mRK26K_7Zqz18wUSozaXo-fBiDm8FYlQeQDDP_6zzBQ/s1600/TRIAL%2BEVENT%2BBANNER.png'),
+                            ),
+                          ),
                           Padding(
                             padding: EdgeInsets.fromLTRB(15, 0, 15, 10),
                             child: Text(
@@ -69,25 +63,12 @@ class _DayoneState extends State<Dayone> {
               ),
 
               Padding(
-                padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+                padding: EdgeInsets.fromLTRB(5, 5, 5, 0),
                 child: Card(
                   elevation: 5,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                        child: Container(
-                          width: double.infinity,
-                          height: 165,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                                fit: BoxFit.fill,
-                                image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
-                          ),
-                        ),
-                      ),
                       ExpansionTile(
                         trailing: Icon(
                           Icons.keyboard_arrow_right,
@@ -102,6 +83,13 @@ class _DayoneState extends State<Dayone> {
                         ),
                         children: <Widget>[
                           Padding(
+                            padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
+                            child: Image(
+                              image: NetworkImage(
+                                  'https://1.bp.blogspot.com/-59eLYUieQW4/Xms-mUid1JI/AAAAAAAAM18/UMj_vrBqsaAM-irfp2L1wrx3hHYnjNYzACEwYBhgLKskDAMBZVoC_ayiyclzIxR_9TPzz75k4qfpZdueGooeZOQUXd9fTOeiYm99jZvNiIpkuRWjLWG62NMgkp4diSw8lfL4BIDUdPqkZeAbHmHt6FAkCdO1hfceNV6TvEdFQZUoKwe7zkmRkBvektJD7gTkQsdw_MbgG1jkQXSz8oLbcvKkPuP-M7eB2acC3mGf18J8q4ZN2cChKmLxDJEyY9YFcF8bu9QEdOzjnI0KnYL4nrVjZM2-7dm7waQQFGiCLsIhk6ilA7Q3t1QzzC-B8SSHd3Kz4_BwXPX8G8eg0Yc8sFIEYHUt59gEVOau7iUKL5qbNSf0EYq0-Qu2pXEbX8Avn8itAOgHb4jk2Hk_uZoslKFdn5dmBDDrL6B1Bm-rsjk7w8ZVhw3P3MKiSt8WrDBCIlgS1HteNl-kNGKtzI9c_-IpkrtEMna4cEc7iQ4zsZdF313xfcthmaHzp3dgSLJaVj5PheNR61Zr6oRqX3cnq8A1bTvfeiZ6O_zNup1ruKobrHM4TxnGeINcAY7ccP5p8DeiHj_LCtBMZh3QQbwvW1WeDXokA0ZVfNFmKdXFLg5-mRK26K_7Zqz18wUSozaXo-fBiDm8FYlQeQDDP_6zzBQ/s1600/TRIAL%2BEVENT%2BBANNER.png'),
+                            ),
+                          ),
+                          Padding(
                             padding: EdgeInsets.fromLTRB(15, 0, 15, 10),
                             child: Text(
                               'Challengers, bring your bots to the arena for the fight of the ages. Prove their mettle and your skill in this showcase of tactical warfare. ADHARVA 19 , Department of Electronics and Communication as part of CROSSROADS 19, Proudly presents, ROBOWAR',
@@ -111,7 +99,7 @@ class _DayoneState extends State<Dayone> {
                           RaisedButton(
                             color: Colors.white,
                             child: Text('Register Now',style: TextStyle(color: Colors.indigo),),
-                            onPressed: _launchURL2,
+                            onPressed: _launchURL1,
                           ),
                         ],
                       )
@@ -121,25 +109,12 @@ class _DayoneState extends State<Dayone> {
               ),
 
               Padding(
-                padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+                padding: EdgeInsets.fromLTRB(5, 5, 5, 0),
                 child: Card(
                   elevation: 5,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                        child: Container(
-                          width: double.infinity,
-                          height: 165,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                                fit: BoxFit.fill,
-                                image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
-                          ),
-                        ),
-                      ),
                       ExpansionTile(
                         trailing: Icon(
                           Icons.keyboard_arrow_right,
@@ -154,6 +129,13 @@ class _DayoneState extends State<Dayone> {
                         ),
                         children: <Widget>[
                           Padding(
+                            padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
+                            child: Image(
+                              image: NetworkImage(
+                                  'https://1.bp.blogspot.com/-59eLYUieQW4/Xms-mUid1JI/AAAAAAAAM18/UMj_vrBqsaAM-irfp2L1wrx3hHYnjNYzACEwYBhgLKskDAMBZVoC_ayiyclzIxR_9TPzz75k4qfpZdueGooeZOQUXd9fTOeiYm99jZvNiIpkuRWjLWG62NMgkp4diSw8lfL4BIDUdPqkZeAbHmHt6FAkCdO1hfceNV6TvEdFQZUoKwe7zkmRkBvektJD7gTkQsdw_MbgG1jkQXSz8oLbcvKkPuP-M7eB2acC3mGf18J8q4ZN2cChKmLxDJEyY9YFcF8bu9QEdOzjnI0KnYL4nrVjZM2-7dm7waQQFGiCLsIhk6ilA7Q3t1QzzC-B8SSHd3Kz4_BwXPX8G8eg0Yc8sFIEYHUt59gEVOau7iUKL5qbNSf0EYq0-Qu2pXEbX8Avn8itAOgHb4jk2Hk_uZoslKFdn5dmBDDrL6B1Bm-rsjk7w8ZVhw3P3MKiSt8WrDBCIlgS1HteNl-kNGKtzI9c_-IpkrtEMna4cEc7iQ4zsZdF313xfcthmaHzp3dgSLJaVj5PheNR61Zr6oRqX3cnq8A1bTvfeiZ6O_zNup1ruKobrHM4TxnGeINcAY7ccP5p8DeiHj_LCtBMZh3QQbwvW1WeDXokA0ZVfNFmKdXFLg5-mRK26K_7Zqz18wUSozaXo-fBiDm8FYlQeQDDP_6zzBQ/s1600/TRIAL%2BEVENT%2BBANNER.png'),
+                            ),
+                          ),
+                          Padding(
                             padding: EdgeInsets.fromLTRB(15, 0, 15, 10),
                             child: Text(
                               'Challengers, bring your bots to the arena for the fight of the ages. Prove their mettle and your skill in this showcase of tactical warfare. ADHARVA 19 , Department of Electronics and Communication as part of CROSSROADS 19, Proudly presents, ROBOWAR',
@@ -163,7 +145,7 @@ class _DayoneState extends State<Dayone> {
                           RaisedButton(
                             color: Colors.white,
                             child: Text('Register Now',style: TextStyle(color: Colors.indigo),),
-                            onPressed: _launchURL3,
+                            onPressed: _launchURL1,
                           ),
                         ],
                       )
@@ -173,25 +155,12 @@ class _DayoneState extends State<Dayone> {
               ),
 
               Padding(
-                padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+                padding: EdgeInsets.fromLTRB(5, 5, 5, 0),
                 child: Card(
                   elevation: 5,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                        child: Container(
-                          width: double.infinity,
-                          height: 165,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                                fit: BoxFit.fill,
-                                image: NetworkImage(
-                                    'https://dscmbcet.github.io/assets/img/kit/events.jpg')),
-                          ),
-                        ),
-                      ),
                       ExpansionTile(
                         trailing: Icon(
                           Icons.keyboard_arrow_right,
@@ -206,6 +175,13 @@ class _DayoneState extends State<Dayone> {
                         ),
                         children: <Widget>[
                           Padding(
+                            padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
+                            child: Image(
+                              image: NetworkImage(
+                                  'https://1.bp.blogspot.com/-59eLYUieQW4/Xms-mUid1JI/AAAAAAAAM18/UMj_vrBqsaAM-irfp2L1wrx3hHYnjNYzACEwYBhgLKskDAMBZVoC_ayiyclzIxR_9TPzz75k4qfpZdueGooeZOQUXd9fTOeiYm99jZvNiIpkuRWjLWG62NMgkp4diSw8lfL4BIDUdPqkZeAbHmHt6FAkCdO1hfceNV6TvEdFQZUoKwe7zkmRkBvektJD7gTkQsdw_MbgG1jkQXSz8oLbcvKkPuP-M7eB2acC3mGf18J8q4ZN2cChKmLxDJEyY9YFcF8bu9QEdOzjnI0KnYL4nrVjZM2-7dm7waQQFGiCLsIhk6ilA7Q3t1QzzC-B8SSHd3Kz4_BwXPX8G8eg0Yc8sFIEYHUt59gEVOau7iUKL5qbNSf0EYq0-Qu2pXEbX8Avn8itAOgHb4jk2Hk_uZoslKFdn5dmBDDrL6B1Bm-rsjk7w8ZVhw3P3MKiSt8WrDBCIlgS1HteNl-kNGKtzI9c_-IpkrtEMna4cEc7iQ4zsZdF313xfcthmaHzp3dgSLJaVj5PheNR61Zr6oRqX3cnq8A1bTvfeiZ6O_zNup1ruKobrHM4TxnGeINcAY7ccP5p8DeiHj_LCtBMZh3QQbwvW1WeDXokA0ZVfNFmKdXFLg5-mRK26K_7Zqz18wUSozaXo-fBiDm8FYlQeQDDP_6zzBQ/s1600/TRIAL%2BEVENT%2BBANNER.png'),
+                            ),
+                          ),
+                          Padding(
                             padding: EdgeInsets.fromLTRB(15, 0, 15, 10),
                             child: Text(
                               'Challengers, bring your bots to the arena for the fight of the ages. Prove their mettle and your skill in this showcase of tactical warfare. ADHARVA 19 , Department of Electronics and Communication as part of CROSSROADS 19, Proudly presents, ROBOWAR',
@@ -215,7 +191,7 @@ class _DayoneState extends State<Dayone> {
                           RaisedButton(
                             color: Colors.white,
                             child: Text('Register Now',style: TextStyle(color: Colors.indigo),),
-                            onPressed: _launchURL4,
+                            onPressed: _launchURL1,
                           ),
                         ],
                       )

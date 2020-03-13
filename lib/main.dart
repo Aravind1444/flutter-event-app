@@ -1,6 +1,8 @@
+import 'package:adharva/about.dart';
 import 'package:adharva/dayone.dart';
 import 'package:adharva/daytwo.dart';
 import 'package:adharva/organizers.dart';
+import 'package:adharva/trivia.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -41,12 +43,8 @@ class _MyAppState extends State<MyApp> {
             ),
             body: TabBarView(
               children: <Widget>[
-                Container(
-                  child: Center(child: Text('Welcome to Adharva')),
-                ),
-                Container(
-                  child: Center(child: Text('Trivia Content')),
-                ),
+                About(),
+                Trivia(),
               ],
             ),
           ),
