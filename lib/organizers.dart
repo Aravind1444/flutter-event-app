@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Organizers extends StatefulWidget {
   @override
@@ -21,201 +22,234 @@ class _OrganizersState extends State<Organizers> {
                     const ListTile(
                       subtitle: Text('\nThe organizing team behind this fest is awaiting your suggestions and feedbacks to keep on improving your experince. Reach out to them with your valuable response.\n\nThe organizing team behind this fest is awaiting your suggestions and feedbacks to keep on improving this app. Reach out to them with your valuable response.'),
                     ),
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 10, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 10, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                                title: Text('Organizer 1'),
+                              subtitle: Text('Organizer'),
                             ),
-                              title: Text('Organizer 1'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 2'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 2'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 3'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 3'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 4'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 4'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 5'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 5'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 6'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 6'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 7'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 7'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 8'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 8'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 9'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 9'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 10'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 10'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
-                    Card(
-                      elevation: 5,
-                      margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          const ListTile(
-                            contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                            leading: Image(
-                              image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                    GestureDetector(
+                      onTap: sample,
+                      child: Card(
+                        elevation: 5,
+                        margin: EdgeInsets.fromLTRB(10, 5, 5, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            const ListTile(
+                              contentPadding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              leading: Image(
+                                image: NetworkImage('https://aravind.me/images/minion.jpg'),
+                              ),
+                              title: Text('Organizer 11'),
+                              subtitle: Text('Organizer'),
                             ),
-                            title: Text('Organizer 11'),
-                            subtitle: Text('Organizer'),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
 
@@ -227,5 +261,14 @@ class _OrganizersState extends State<Organizers> {
         ),
       ),
     );
+  }
+}
+
+sample() async {
+  const url = 'tel:1234567890';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
   }
 }
