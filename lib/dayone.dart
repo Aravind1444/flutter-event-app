@@ -17,7 +17,7 @@ class _DayoneState extends State<Dayone> {
           child: Column(
             children: <Widget>[
               Padding(
-                padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+                padding: EdgeInsets.fromLTRB(5, 5, 5, 0),
                 child: Card(
                   elevation: 5,
                   child: Column(
@@ -27,7 +27,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -79,7 +79,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -130,7 +130,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -182,7 +182,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -234,7 +234,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -286,7 +286,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -338,7 +338,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -390,7 +390,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -442,7 +442,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -494,7 +494,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
@@ -546,7 +546,7 @@ class _DayoneState extends State<Dayone> {
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Container(
                           width: double.infinity,
-                          height: 165,
+                          height: 180,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,

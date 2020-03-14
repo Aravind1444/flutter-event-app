@@ -16,21 +16,29 @@ class _SponsorsState extends State<Sponsors> {
           child: Column(
             children: <Widget>[
               Card(
-                margin: EdgeInsets.fromLTRB(5, 10, 5, 5),
+                margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
+                    Container(
+                      width: double.infinity,
+                      color: Colors.indigo[700],
+                      child: Padding(
+                          padding: EdgeInsets.fromLTRB(15, 10, 10, 10),
+                          child: Center(
+                            child: Text(
+                              'SPONSORS',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 30,
+                                  fontFamily: 'Orbitron',
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          )),
+                    ),
+
                     const ListTile(
-                      title: Center(
-                          child: Text(
-                        'SPONSORS',
-                        style: TextStyle(
-                            fontSize: 35,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.indigo),
-                      )),
-                      subtitle: Text(
-                          '\nWe are always grateful to our sponsors who have been supporting us from the very beginning. Without their constant support, we would not have been able to provide this wondeful experience for you.\n\nHere are our sponsors, making this event possible. We wholeheartedly thank you for your constant support. '),
+                      subtitle: Text('\nThe organizing team behind this fest is awaiting your suggestions and feedbacks to keep on improving your experince. Reach out to them with your valuable response.\n\nThe organizing team behind this fest is awaiting your suggestions and feedbacks to keep on improving this app. Reach out to them with your valuable response.'),
                     ),
                     GestureDetector(
                       onTap: dscurl,

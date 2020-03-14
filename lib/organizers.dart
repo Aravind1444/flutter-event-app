@@ -15,10 +15,28 @@ class _OrganizersState extends State<Organizers> {
           child: Column(
             children: <Widget>[
               Card(
-                margin: EdgeInsets.fromLTRB(5, 10, 5, 5),
+                margin: EdgeInsets.fromLTRB(0,0,0, 0),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
+
+                    Container(
+                      width: double.infinity,
+                      color: Colors.indigo[700],
+                      child: Padding(
+                          padding: EdgeInsets.fromLTRB(15, 10, 10, 10),
+                          child: Center(
+                            child: Text(
+                              'ORGANIZERS',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 30,
+                                  fontFamily: 'Orbitron',
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          )),
+                    ),
+
                     const ListTile(
                       subtitle: Text('\nThe organizing team behind this fest is awaiting your suggestions and feedbacks to keep on improving your experince. Reach out to them with your valuable response.\n\nThe organizing team behind this fest is awaiting your suggestions and feedbacks to keep on improving this app. Reach out to them with your valuable response.'),
                     ),

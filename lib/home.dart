@@ -10,6 +10,7 @@ import 'organizers.dart';
 import 'dayone.dart';
 import 'daytwo.dart';
 import 'developers.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(Home());
 
@@ -65,38 +66,7 @@ class _MyAppState extends State<Home> {
       child: Sponsors(),
     ),
     Center(
-      child: DefaultTabController(
-        length: 2,
-        child: SafeArea(
-          child: Scaffold(
-            appBar: PreferredSize(
-              preferredSize: Size.fromHeight(48.0),
-              child: AppBar(
-                backgroundColor: Colors.indigo,
-                bottom: TabBar(
-                  indicatorColor: Colors.white,
-                  tabs: <Widget>[
-                    Tab(text: 'ORGANIZERS'),
-                    Tab(text: 'DEVELOPER'),
-                  ],
-                ),
-              ),
-            ),
-            body: TabBarView(
-              children: <Widget>[
-                Container(
-                  child: Organizers(),
-                ),
-
-                //developer sections details are available below
-                Container(
-                  child: Developers(),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
+      child: Organizers(),
     ),
   ];
 
@@ -106,7 +76,7 @@ class _MyAppState extends State<Home> {
         SystemUiOverlayStyle(statusBarColor: Colors.indigo[700]));
     return MaterialApp(
       theme: ThemeData(
-        primaryColor: Colors.indigo,
+        primaryColor: Colors.indigo[700],
         brightness: Brightness.light,
       ),
       home: Scaffold(
@@ -116,7 +86,7 @@ class _MyAppState extends State<Home> {
         bottomNavigationBar: BottomNavigationBar(
           selectedItemColor: Colors.white,
           currentIndex: _currentIndex,
-          backgroundColor: Colors.indigo,
+          backgroundColor: Colors.indigo[700],
           type: BottomNavigationBarType.fixed,
           items: [
             BottomNavigationBarItem(
@@ -125,7 +95,7 @@ class _MyAppState extends State<Home> {
                 'HOME',
                 style: TextStyle(fontSize: 10),
               ),
-              backgroundColor: Colors.indigo,
+              backgroundColor: Colors.indigo[700],
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.event),
@@ -133,7 +103,7 @@ class _MyAppState extends State<Home> {
                 'EVENTS',
                 style: TextStyle(fontSize: 10),
               ),
-              backgroundColor: Colors.indigo,
+              backgroundColor: Colors.indigo[700],
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.monetization_on),
@@ -141,7 +111,7 @@ class _MyAppState extends State<Home> {
                 'SPONSORS',
                 style: TextStyle(fontSize: 10),
               ),
-              backgroundColor: Colors.indigo,
+              backgroundColor: Colors.indigo[700],
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.contact_phone),
@@ -149,7 +119,7 @@ class _MyAppState extends State<Home> {
                 'CONTACT',
                 style: TextStyle(fontSize: 10),
               ),
-              backgroundColor: Colors.indigo,
+              backgroundColor: Colors.indigo[700],
             ),
           ],
           onTap: (index) {
@@ -162,3 +132,4 @@ class _MyAppState extends State<Home> {
     );
   }
 }
+
