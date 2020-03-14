@@ -2,7 +2,6 @@ import 'package:adharva/about.dart';
 import 'package:adharva/dayone.dart';
 import 'package:adharva/daytwo.dart';
 import 'package:adharva/organizers.dart';
-import 'package:adharva/trivia.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -25,33 +24,11 @@ class _MyAppState extends State<Home> {
 
   final tabs = [
     Center(
-      child: DefaultTabController(
-        length: 2,
-        child: SafeArea(
-          child: Scaffold(
-            appBar: PreferredSize(
-              preferredSize: Size.fromHeight(48.0),
-              child: AppBar(
-                backgroundColor: Colors.indigo,
-                bottom: TabBar(
-                  indicatorColor: Colors.white,
-                  tabs: <Widget>[
-                    Tab(text: 'ABOUT'),
-                    Tab(text: 'TRIVIA'),
-                  ],
-                ),
-              ),
-            ),
-            body: TabBarView(
-              children: <Widget>[
-                About(),
-                Trivia(),
-              ],
-            ),
-          ),
-        ),
-      ),
+      child: About(),
     ),
+
+
+
     Center(
       child: DefaultTabController(
         length: 2,

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
 import 'dart:async';
+import 'package:splashscreen/splashscreen.dart';
+
 
 void main() {
   runApp(
@@ -22,7 +24,7 @@ class _MyAppState extends State<MyApp> {
     Future.delayed(
       Duration(seconds: 2),
           () {
-        Navigator.push(
+        Navigator.pushReplacement(
           context,
           MaterialPageRoute(
             builder: (context) => Home(),
