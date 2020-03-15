@@ -38,7 +38,7 @@ class _MyAppState extends State<Home> {
             appBar: PreferredSize(
               preferredSize: Size.fromHeight(48.0),
               child: AppBar(
-                backgroundColor: Colors.indigo,
+                backgroundColor: Colors.indigo[700],
                 bottom: TabBar(
                   indicatorColor: Colors.white,
                   tabs: <Widget>[

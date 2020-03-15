@@ -148,6 +148,7 @@ class _AboutState extends State<About> {
               ClipRRect(
                 borderRadius: BorderRadius.all(Radius.circular(5)),
                 child: Container(
+                  color: Colors.white,
                   child: Card(
                     margin: EdgeInsets.fromLTRB(10, 10, 10, 20),
                     elevation: 10,
